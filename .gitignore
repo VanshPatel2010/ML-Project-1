@@ -5,7 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
-
+.venev
+.env
+.vscode
+artifacts
 # Distribution / packaging
 .Python
 build/
