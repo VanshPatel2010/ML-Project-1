@@ -8,7 +8,8 @@ __pycache__/
 .venev
 .env
 .vscode
-artifacts
+
+
 # Distribution / packaging
 .Python
 build/
