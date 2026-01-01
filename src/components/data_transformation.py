@@ -24,7 +24,7 @@ class DataTransformation:
     def get_data_transformer_object(self):
         try:
             numerical_columns = ["writing score", "reading score"]
-            categorical_columns = ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+            categorical_columns = ['gender', 'race/ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
 
             #for handling missing values
             num_pipeline = Pipeline(
